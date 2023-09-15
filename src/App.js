@@ -2,20 +2,26 @@ import logo from './logo.svg';
 import Layout from './components/layout';
 import Profile from './components/profile';
 import PropertyCardList from './components/propertyCard';
-import {Card} from './components/ui/card';
+import { Services, ServicesSidebar } from './components/services';
+import { Card } from './components/ui/card';
+import Team from './components/team';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <div className='grid grid-rows-x grid-cols-8 gap-6'>
-          <Profile className=''/>
-          <Card className=' col-span-2'></Card>
-          <Card className='col-span-2 bg-sky-200'></Card>
-          <Card className='row-span-1 col-span-6  bg-red-100'></Card>
+        <div className='flex'>
+          <div className='flex flex-col gap-y-6'>
+            <Profile />
+            <Services />
+          </div>
+          <div className='flex flex-col ml-6 gap-y-6'>
+          <Team />
+          <ServicesSidebar />
+          </div>
         </div>
-        <PropertyCardList/>
+        <PropertyCardList />
       </Layout>
     </div>
   );

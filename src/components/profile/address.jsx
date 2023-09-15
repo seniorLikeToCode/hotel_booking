@@ -8,14 +8,14 @@ const Address = () => {
                 You can find me around
             </h1>
             <div className="flex justify-start gap-24 px-8">
-                <div className="flex flex-col text-sm">
+                <div className="flex flex-col text-sm gap-y-2">
                     <p className="text-left font-semibold">Residence</p>
                     <div className="flex items-center justify-center gap-1">
                         <MapPin size={16} />
                         <p> Noida, UP, India</p>
                     </div>
                 </div>
-                <div className="flex flex-col text-sm">
+                <div className="flex flex-col text-sm gap-y-2">
                     <p className="text-left  font-semibold">Native</p>
                     <div className="flex items-center justify-center gap-1">
                         <MapPin size={16}  />

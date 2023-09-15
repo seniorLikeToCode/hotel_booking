@@ -21,10 +21,10 @@ const Main = () => {
                 >
                     <MoreHorizontal className="text-neutral-400" />
                 </Button>
-                <Button variant="outline" className="text-xs w-24 border-2">
+                <Button variant="outline" className="text-xs w-24 border-2 border-[#E36957] text-[#E36957]">
                     Hire me
                 </Button>
-                <Button className="text-xs w-24">
+                <Button className="text-xs w-24 bg-[#E36957]">
                     <PlusIcon size={14} className="mr-1" />
                     Follow
                 </Button>
@@ -46,7 +46,6 @@ const Main = () => {
                         <p className="ml-2 text-sm text-neutral-400">5.0</p>
                         <p className="text-neutral-400 ml-8 text-sm">725 Reviews</p>
                     </div>
-                    
                 </div>
                 <p className="text-sm text-neutral-400">
                     "Experience and expertise you can trust in the ever-changing

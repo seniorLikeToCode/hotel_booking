@@ -8,9 +8,9 @@ const Navbar = () => {
             <p className='text-xl font-semibold pl-4'>ESTTE</p>
             <div className='flex gap-6 pr-4'>
                 {/* search bar here */}
-                <Button variant='outline' className='w-32'><PlusIcon size={20} className='pr-1'/>Post New</Button>
-                <Button className='w-32'>JOIN</Button>
-                <Button className='w-32'>SIGN IN</Button>
+                <Button variant='outline' className='w-32 text-[#340E62]'><PlusIcon size={20} className='pr-1'/>Post New</Button>
+                <Button className='w-32 bg-[#340E62]'>JOIN</Button>
+                <Button className='w-32 bg-[#340E62]'>SIGN IN</Button>
             </div>
         </div>
     </>
