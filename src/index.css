@@ -65,11 +65,25 @@
     --ring: 0 0% 83.1%;
   }
 }
+
+* {
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.image-mt {
+  margin-top: 0 !important;
+}
+
+.grid-rows-x {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
  
 @layer base {
-  * {
-    @apply border-border;
-  }
+  
   body {
     @apply bg-background text-foreground;
   }
