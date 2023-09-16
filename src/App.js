@@ -3,7 +3,7 @@ import Layout from './components/layout';
 import Profile from './components/profile';
 import PropertyCardList from './components/propertyCard';
 import { Services, ServicesSidebar } from './components/services';
-import { Card } from './components/ui/card';
+import { InqueryCard,InqueryCardList } from './components/inquiry';
 import Team from './components/team';
 import './App.css';
 
@@ -22,6 +22,7 @@ function App() {
           </div>
         </div>
         <PropertyCardList />
+        <InqueryCardList />
       </Layout>
     </div>
   );
