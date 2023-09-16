@@ -5,7 +5,7 @@ import userLogo from "../assests/user.png";
 export const InqueryCard = () => {
     return (
         <>
-            <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-4 hover:border-[#340E62] hover:shadow-xl ">
+            <div className="rounded-lg border w-[32rem] bg-card text-card-foreground shadow-sm p-4 hover:border-[#340E62] hover:shadow-xl ">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-x-2">
                         <img
@@ -45,7 +45,7 @@ export const InqueryCardList = () => {
     return (
         <div className="mt-8">
             <h1 className="font-bold text-xl text-left mb-4">My inquiries</h1>
-            <div className="flex gap-6 ">
+            <div className="flex flex-wrap gap-6 ">
                 {[1, 2, 3].map((item, index) => (
                     <InqueryCard key={index} />
                 ))}
