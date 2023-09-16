@@ -5,7 +5,7 @@ import userLogo from "../assests/user.png";
 export const InqueryCard = () => {
     return (
         <>
-            <div className="rounded-lg border w-[32rem] bg-card text-card-foreground shadow-sm p-4 hover:border-[#340E62] hover:shadow-xl ">
+            <div className="rounded-lg border w-[30rem] bg-card text-card-foreground shadow-sm p-4 hover:border-[#340E62] hover:shadow-xl ">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-x-2">
                         <img
